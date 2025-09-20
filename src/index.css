@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-container {
+  @apply relative w-screen h-screen overflow-hidden;
+}
+
+.content {
+  @apply relative z-10 text-white p-5 text-center min-h-screen;
+}
+
+html, body {
+  @apply h-full m-0;
+  background-color: transparent;
+}
